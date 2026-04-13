@@ -59,5 +59,3 @@ arXiv preprint, 2025.
 - The dataset is a subset (~95 PRs) and may not fully represent all agent-authored pull requests.
 - Annotation involves manual judgment and may include subjective interpretation in borderline cases.
 
-
-Sana Hameed
