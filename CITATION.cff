@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+title: "Replication Package: An Empirical Study of Hallucination-Induced Failures in LLM-Based Agent-Authored Pull Requests"
+
+message: "If you use this replication package in your research, please cite it using the metadata below."
+
+type: dataset
+
+authors:
+  - family-names: Hameed
+    given-names: Sana
+
+  - family-names: Li
+    given-names: Ruiyin
+
+  - family-names: Liang
+    given-names: Peng
+
+  - family-names: Tahir
+    given-names: Amjed
+
+  - family-names: Shahin
+    given-names: Mojtaba
+
+  - family-names: Li
+    given-names: Zengyang
+
+  - family-names: Khan
+    given-names: Arif Ali
+
+repository-code: "https://github.com/sanahameed17/hallucination-pr-analysis"
+
+license: CC-BY-4.0
+
+abstract: >
+  This replication package accompanies the empirical study
+  "An Empirical Study of Hallucination-Induced Failures in
+  LLM-Based Agent-Authored Pull Requests". It contains the
+  manually annotated datasets, annotation guidelines, and
+  supporting materials used to investigate hallucination
+  behaviors, their evolution, workflow outcomes, and early
+  hallucination indicators in agent-authored pull requests.
+
+keywords:
+  - Large Language Models
+  - LLM
+  - Software Engineering
+  - AI Coding Agents
+  - Hallucination
+  - Pull Requests
+  - GitHub
+  - Empirical Study
+  - Dataset
+  - Replication Package
+
+version: "1.0"
+
+date-released: 2026-08-08
