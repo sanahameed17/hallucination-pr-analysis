@@ -28,11 +28,12 @@ Procedure:
 
 1. Open `pr_annotation_dataset.csv`.
 2. Filter pull requests where hallucination is present.
-3. Count the number of Requirement-Conflicting hallucinations.
-4. Count the number of Knowledge-Related hallucinations.
-5. Count the number of Code-Inconsistency hallucinations.
-6. Calculate frequencies and percentages.
-7. Generate the hallucination distribution table and corresponding figure.
+3. Identify all annotated hallucination instances within the hallucinated pull requests.
+4. Count the number of Requirement-Conflicting hallucination instances.
+5. Count the number of Knowledge-Related hallucination instances.
+6. Count the number of Code-Inconsistency hallucination instances.
+7. Calculate frequencies and percentages using the total number of hallucination instances as the denominator.
+8. Generate the hallucination distribution table and corresponding figure.
 
 ---
 
@@ -64,12 +65,15 @@ Procedure:
 
 1. Open `pr_annotation_dataset.csv`.
 2. Compare hallucinated and non-hallucinated pull requests.
-3. Analyze PR status.
-4. Analyze available CI/Test outcomes.
-5. Perform Pearson's Chi-square test.
-6. Compute Fisher's Exact Test where appropriate.
-7. Compute Cramér's V.
-8. Compute Odds Ratios.
+3. Analyze PR status across the four categories: Merged, Closed, Open, and Draft.
+4. Perform Pearson's Chi-square test of independence for the 2×4 PR-status contingency table.
+5. Because the PR-status table contains small expected frequencies, perform an exact test for the 2×4 contingency table.
+6. For the binary comparison of merged versus non-merged pull requests, perform Fisher's exact test.
+7. Compute Cramér's V for categorical associations.
+8. Compute the odds ratio for the binary merged versus non-merged comparison.
+9. Analyze available CI/test outcomes separately for hallucinated and non-hallucinated pull requests.
+10. Perform Pearson's Chi-square test for the CI/test outcome comparison.
+11. Compute Cramér's V for the CI/test outcome association.
 
 ---
 
@@ -77,14 +81,15 @@ Procedure:
 
 Research Question:
 
-> Can hallucination indicators be identified before formal validation?
+> Can hallucination indicators be identified in the initial version of a PR before formal validation activities such as code review and CI execution, without treating these indicators as evidence of predictive detection?
 
 Procedure:
 
 1. Review the initial version of hallucinated pull requests.
 2. Examine annotation notes and supporting evidence.
-3. Identify observable hallucination indicators before code review and CI execution.
-4. Summarize common early hallucination characteristics.
+3. Identify hallucination indicators observable before formal validation activities such as code review and CI execution.
+4. Summarize the observable early hallucination characteristics.
+5. Interpret the findings as qualitative observability rather than predictive detection.
 
 ---
 
@@ -102,7 +107,8 @@ Statistical techniques:
 
 - Descriptive Statistics
 - Pearson's Chi-square Test
-- Fisher's Exact Test
+- Exact Test for the 2×4 PR-status contingency table
+- Fisher's Exact Test for the binary merged versus non-merged comparison
 - Cramér's V
 - Odds Ratio Analysis
 
