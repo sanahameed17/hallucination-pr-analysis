@@ -75,7 +75,7 @@ Determine whether hallucination behavior is present.
 
 ### Step 7
 
-If hallucination is identified, assign one or more hallucination categories using the predefined taxonomy.
+If hallucination is identified, classify each hallucination instance using the predefined taxonomy and record the corresponding category.
 
 ### Step 8
 
@@ -131,4 +131,4 @@ The annotation process followed four principles.
 
 # Quality Assurance
 
-All annotations were performed manually using predefined operational definitions and consistent annotation criteria to improve labeling consistency throughout the study.
+All annotations were performed manually using predefined operational definitions and consistent annotation criteria to improve labeling consistency throughout the study. No formal inter-annotator agreement assessment was conducted.
