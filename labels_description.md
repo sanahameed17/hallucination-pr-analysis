@@ -24,7 +24,7 @@ No observable hallucination behavior was identified in the pull request.
 
 # Hallucination Taxonomy
 
-Hallucination behaviors were classified using the taxonomy proposed by Liu et al. (2026). A pull request may contain more than one hallucination category.
+Hallucination behaviors were classified using the taxonomy proposed by Liu et al. (2026). Each identified hallucination instance was assigned a corresponding hallucination category based on the available repository evidence.
 
 ## 1. Requirement-Conflicting Hallucination
 
