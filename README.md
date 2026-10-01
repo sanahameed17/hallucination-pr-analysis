@@ -1,8 +1,8 @@
-# Replication Package: An Empirical Study of Hallucination-Induced Failures in LLM-Based Agent-Authored Pull Requests
+# Replication Package: An Empirical Study of Hallucination Behaviors in LLM-based Agent-Authored Pull Requests
 
 ## Overview
 
-This repository contains the replication package for the paper **"An Empirical Study of Hallucination-Induced Failures in LLM-Based Agent-Authored Pull Requests."**
+This repository contains the replication package for the paper **"An Empirical Study of Hallucination Behaviors in LLM-based Agent-Authored Pull Requests."**
 
 The study presents a large-scale empirical investigation of hallucination behaviors in AI-generated pull requests created by autonomous coding agents. Using a manually annotated dataset of **500 agent-authored pull requests** selected from the **AIDev dataset**, the study investigates how hallucinations occur, evolve across pull request revision cycles, relate to workflow outcomes, and whether hallucination indicators can be identified before formal validation activities.
 
@@ -231,7 +231,7 @@ If you use this replication package in your research, please cite:
 ```bibtex
 @misc{sanahameed2026dataset,
   author = {Sana Hameed and Ruiyin Li and Peng Liang and Amjed Tahir and Mojtaba Shahin and Zengyang Li and Arif Ali Khan},
-  title = {Replication Package for the Paper: An Empirical Study of Hallucination-Induced Failures in LLM-Based Agent-Authored Pull Requests},
+  title = {Replication Package for the Paper: An Empirical Study of Hallucination Behaviors in LLM-based Agent-Authored Pull Requests},
   year = {2026},
   howpublished = {GitHub Repository},
   url = {https://github.com/sanahameed17/hallucination-pr-analysis}
