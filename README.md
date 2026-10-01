@@ -20,7 +20,7 @@ This study addresses the following research questions:
 
 - **RQ3:** What is the relationship between hallucination presence and measurable pull request outcomes, including integration success, CI/test outcomes, and pull request rejection?
 
-- **RQ4:** Can hallucination indicators be identified in the initial version of a pull request before formal validation activities such as code review and CI execution?
+- **RQ4:** Can hallucination indicators be identified in the initial version of a PR before formal validation activities such as code review and CI execution, without treating these indicators as evidence of predictive detection?
 
 ---
 
@@ -30,12 +30,16 @@ This study addresses the following research questions:
 hallucination-pr-analysis/
 │
 ├── README.md
+├── CITATION.cff
+├── LICENSE
+├── annotation_protocol.md
 ├── labels_description.md
+├── reproducibility.md
 ├── pr_annotation_dataset.csv
-├── hallucination_evolution_dataset.csv
+└── hallucination_evolution_dataset.csv
 ```
 
-This repository contains two manually annotated datasets together with the annotation guideline used throughout the empirical study.
+This repository contains the manually annotated datasets, annotation protocol, label descriptions, and reproducibility guide used throughout the empirical study.
 
 ---
 
@@ -181,7 +185,8 @@ The following statistical techniques were used:
 
 - Descriptive Statistics
 - Pearson's Chi-square Test
-- Fisher's Exact Test
+- Exact Test for the 2×4 PR-status contingency table
+- Fisher's Exact Test for the binary merged versus non-merged comparison
 - Cramér's V
 - Odds Ratio Analysis
 
