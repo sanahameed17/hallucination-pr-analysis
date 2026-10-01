@@ -120,7 +120,7 @@ Each pull request was analyzed using the following procedure.
 4. Review discussion threads and review comments.
 5. Examine available CI/Test execution results.
 6. Identify hallucination behaviors using predefined operational definitions.
-7. Assign one or more hallucination taxonomy labels where appropriate.
+7. Classify each identified hallucination instance using the predefined hallucination taxonomy.
 8. Record supporting repository evidence.
 9. Determine hallucination evolution for hallucinated pull requests.
 
@@ -150,8 +150,8 @@ Hallucination labels were assigned only when sufficient repository evidence supp
 
 # Notes
 
-- A single pull request may contain multiple hallucination categories.
-- Hallucination categories are not mutually exclusive.
+- A single pull request may contain multiple hallucination instances.
+- Each hallucination instance is classified using one of the predefined hallucination categories.
 - Evolution analysis was performed only for pull requests in which hallucinations were identified.
 - Annotation involves expert manual interpretation and may include limited subjectivity in complex repository contexts.
 - The dataset and annotation guidelines are intended to support empirical research on hallucination-aware software engineering and enable replication of the reported analyses.
