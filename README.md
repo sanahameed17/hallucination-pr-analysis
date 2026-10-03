@@ -25,7 +25,7 @@ This file contains the revision-level data used to examine the evolution of hall
 
 ```bibtex
 @misc{sanahameed2026dataset,
-  author = {Sana Hameed and Ruiyin Li and Peng Liang and Amjed Tahir and Mojtaba Shahin and Zengyang Li and Arif Ali Khan},
+  author = {Hameed, Sana and Li, Ruiyin and Liang, Peng and Tahir, Amjed and Shahin, Mojtaba and Li,Zengyang and Khan, Arif Ali},
   title = {Replication Package for the Paper: An Empirical Study of Hallucination Behaviors in LLM-based Agent-Authored Pull Requests},
   year = {2026},
   howpublished = {GitHub Repository},
