@@ -2,23 +2,22 @@
 
 ---
 
-This repository contains the datasets used in our empirical study of hallucination behaviors in LLM-based agent-authored pull requests. A brief description of each dataset and supporting file is provided below.
+This repository contains the replication datasets for the empirical study of hallucination behaviors in LLM-based agent-authored pull requests. A brief description of each dataset is provided below.
 
 ## 1. pr_annotation_dataset.csv
 
-This file contains the manually annotated pull request dataset used in the study. It includes pull request information, hallucination labels, hallucination categories, CI/test outcomes, and annotation notes.
+This file contains the manually annotated dataset of the analyzed agent-authored pull requests. Each record provides information about the pull request, including its URL, AI coding agent, pull request state, task category, CI/test outcome, hallucination presence, hallucination category, and annotation notes. The dataset provides the main annotated records used to examine hallucination behaviors and their relationship with pull request and CI/test outcomes.
 
 ## 2. hallucination_evolution_dataset.csv
 
-This file contains the data used to analyze the evolution of hallucination behaviors across pull request revisions.
+This file contains the revision-level data used to examine the evolution of hallucination behaviors in hallucinated pull requests. It records the initial and final hallucination types, the observed evolution category, final pull request status, and supporting evidence used for the evolution analysis. The dataset supports the analysis of how hallucination behaviors change or persist across pull request revisions.
 
-## 3. annotation_protocol.md
+## 📁 Repository Structure
 
-This file contains the annotation protocol and operational criteria used for identifying and classifying hallucination behaviors.
-
-## 4. labels_description.md
-
-This file provides descriptions of the labels and categories used in the annotated datasets.
+```text
+├── pr_annotation_dataset.csv
+├── hallucination_evolution_dataset.csv
+└── README.md
 
 ## 📝 Citation
 
