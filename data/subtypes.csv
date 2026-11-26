@@ -1,0 +1,538 @@
+pr_id,category,subtype_id,subtype
+PR1,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR2,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR10,Knowledge-Related,K4,Outdated or removed API or knowledge
+PR10,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR13,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR15,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR17,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR22,Code-Inconsistency,C2,Unsupported verification claims
+PR32,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR32,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR33,Knowledge-Related,K4,Outdated or removed API or knowledge
+PR34,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR36,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR37,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR38,Code-Inconsistency,C4,Internal inconsistency within the change
+PR39,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR41,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR42,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR45,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR46,Code-Inconsistency,C4,Internal inconsistency within the change
+PR48,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR50,Knowledge-Related,K4,Outdated or removed API or knowledge
+PR50,Code-Inconsistency,C4,Internal inconsistency within the change
+PR51,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR58,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR59,Code-Inconsistency,C4,Internal inconsistency within the change
+PR60,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR61,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR64,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR67,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR71,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR75,Knowledge-Related,K2,Non-existent or incompatible dependency version
+PR83,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR85,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR88,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR89,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR90,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR92,Code-Inconsistency,C2,Unsupported verification claims
+PR93,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR95,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR96,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR99,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR99,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR101,Knowledge-Related,K4,Outdated or removed API or knowledge
+PR103,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR105,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR106,Code-Inconsistency,C4,Internal inconsistency within the change
+PR109,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR111,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR112,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR115,Code-Inconsistency,C4,Internal inconsistency within the change
+PR120,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR121,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR126,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR128,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR136,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR137,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR140,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR141,Code-Inconsistency,C4,Internal inconsistency within the change
+PR144,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR144,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR146,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR147,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR155,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR160,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR161,Code-Inconsistency,C4,Internal inconsistency within the change
+PR165,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR170,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR170,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR172,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR174,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR185,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR193,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR194,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR196,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR198,Knowledge-Related,K4,Outdated or removed API or knowledge
+PR203,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR210,Knowledge-Related,K4,Outdated or removed API or knowledge
+PR213,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR214,Code-Inconsistency,C4,Internal inconsistency within the change
+PR226,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR233,Code-Inconsistency,C4,Internal inconsistency within the change
+PR234,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR235,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR236,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR244,Requirement-Conflicting,R1,Requirement not met although claimed as done
+PR247,Code-Inconsistency,C4,Internal inconsistency within the change
+PR249,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR250,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR252,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR252,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR254,Knowledge-Related,K4,Outdated or removed API or knowledge
+PR255,Code-Inconsistency,C4,Internal inconsistency within the change
+PR258,Code-Inconsistency,C2,Unsupported verification claims
+PR259,Knowledge-Related,K4,Outdated or removed API or knowledge
+PR259,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR261,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR266,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR269,Code-Inconsistency,C2,Unsupported verification claims
+PR270,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR271,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR275,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR277,Requirement-Conflicting,R2,Change contradicts the requirement or adds unrequested scope
+PR277,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR280,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR282,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR282,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR287,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR290,Code-Inconsistency,C4,Internal inconsistency within the change
+PR295,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR295,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR307,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR309,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR311,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR312,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR312,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR321,Requirement-Conflicting,R2,Change contradicts the requirement or adds unrequested scope
+PR321,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR321,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR324,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR326,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR326,Code-Inconsistency,C2,Unsupported verification claims
+PR327,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR328,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR332,Requirement-Conflicting,R2,Change contradicts the requirement or adds unrequested scope
+PR335,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR336,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR337,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR340,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR341,Requirement-Conflicting,R2,Change contradicts the requirement or adds unrequested scope
+PR344,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR353,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR353,Code-Inconsistency,C4,Internal inconsistency within the change
+PR359,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR359,Code-Inconsistency,C4,Internal inconsistency within the change
+PR361,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR366,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR367,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR368,Knowledge-Related,K4,Outdated or removed API or knowledge
+PR370,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR374,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR378,Requirement-Conflicting,R2,Change contradicts the requirement or adds unrequested scope
+PR378,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR381,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR383,Code-Inconsistency,C4,Internal inconsistency within the change
+PR395,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR396,Knowledge-Related,K2,Non-existent or incompatible dependency version
+PR399,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR399,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR402,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR407,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR410,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR410,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR411,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR411,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR412,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR417,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR418,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR419,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR422,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR428,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR433,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR434,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR442,Requirement-Conflicting,R2,Change contradicts the requirement or adds unrequested scope
+PR442,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR442,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR447,Requirement-Conflicting,R2,Change contradicts the requirement or adds unrequested scope
+PR447,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR448,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR450,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR456,Requirement-Conflicting,R2,Change contradicts the requirement or adds unrequested scope
+PR457,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR457,Code-Inconsistency,C2,Unsupported verification claims
+PR458,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR458,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR463,Code-Inconsistency,C2,Unsupported verification claims
+PR467,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR467,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR468,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR472,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR474,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR480,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR482,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR495,Requirement-Conflicting,R2,Change contradicts the requirement or adds unrequested scope
+PR497,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR498,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR505,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR506,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR509,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR510,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR516,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR518,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR522,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR526,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR529,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR536,Requirement-Conflicting,R1,Requirement not met although claimed as done
+PR537,Code-Inconsistency,C4,Internal inconsistency within the change
+PR550,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR552,Requirement-Conflicting,R1,Requirement not met although claimed as done
+PR553,Code-Inconsistency,C4,Internal inconsistency within the change
+PR555,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR556,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR557,Knowledge-Related,K2,Non-existent or incompatible dependency version
+PR558,Requirement-Conflicting,R1,Requirement not met although claimed as done
+PR561,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR562,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR564,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR565,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR567,Knowledge-Related,K4,Outdated or removed API or knowledge
+PR571,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR574,Code-Inconsistency,C4,Internal inconsistency within the change
+PR576,Code-Inconsistency,C4,Internal inconsistency within the change
+PR577,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR578,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR580,Code-Inconsistency,C4,Internal inconsistency within the change
+PR581,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR587,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR588,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR589,Code-Inconsistency,C4,Internal inconsistency within the change
+PR593,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR593,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR596,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR597,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR600,Code-Inconsistency,C4,Internal inconsistency within the change
+PR601,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR601,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR602,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR604,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR608,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR612,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR614,Code-Inconsistency,C4,Internal inconsistency within the change
+PR617,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR621,Code-Inconsistency,C4,Internal inconsistency within the change
+PR622,Requirement-Conflicting,R1,Requirement not met although claimed as done
+PR622,Code-Inconsistency,C4,Internal inconsistency within the change
+PR624,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR624,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR625,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR626,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR630,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR632,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR641,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR644,Code-Inconsistency,C2,Unsupported verification claims
+PR646,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR646,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR647,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR650,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR651,Knowledge-Related,K4,Outdated or removed API or knowledge
+PR651,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR653,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR655,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR657,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR659,Code-Inconsistency,C4,Internal inconsistency within the change
+PR661,Requirement-Conflicting,R2,Change contradicts the requirement or adds unrequested scope
+PR661,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR662,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR663,Requirement-Conflicting,R1,Requirement not met although claimed as done
+PR663,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR667,Code-Inconsistency,C2,Unsupported verification claims
+PR670,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR671,Knowledge-Related,K2,Non-existent or incompatible dependency version
+PR671,Code-Inconsistency,C2,Unsupported verification claims
+PR672,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR675,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR679,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR681,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR681,Code-Inconsistency,C2,Unsupported verification claims
+PR682,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR683,Code-Inconsistency,C2,Unsupported verification claims
+PR685,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR686,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR687,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR688,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR689,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR691,Code-Inconsistency,C2,Unsupported verification claims
+PR693,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR693,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR694,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR698,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR700,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR702,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR703,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR703,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR705,Requirement-Conflicting,R1,Requirement not met although claimed as done
+PR705,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR707,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR709,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR715,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR715,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR717,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR718,Knowledge-Related,K4,Outdated or removed API or knowledge
+PR721,Code-Inconsistency,C4,Internal inconsistency within the change
+PR726,Code-Inconsistency,C2,Unsupported verification claims
+PR727,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR729,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR729,Code-Inconsistency,C4,Internal inconsistency within the change
+PR731,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR731,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR733,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR734,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR734,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR738,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR739,Knowledge-Related,K4,Outdated or removed API or knowledge
+PR739,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR743,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR745,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR745,Code-Inconsistency,C4,Internal inconsistency within the change
+PR746,Code-Inconsistency,C4,Internal inconsistency within the change
+PR747,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR749,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR749,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR752,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR755,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR756,Requirement-Conflicting,R1,Requirement not met although claimed as done
+PR756,Code-Inconsistency,C2,Unsupported verification claims
+PR757,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR759,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR761,Requirement-Conflicting,R1,Requirement not met although claimed as done
+PR761,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR761,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR762,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR762,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR763,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR763,Code-Inconsistency,C2,Unsupported verification claims
+PR765,Code-Inconsistency,C2,Unsupported verification claims
+PR766,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR766,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR767,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR767,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR768,Requirement-Conflicting,R1,Requirement not met although claimed as done
+PR768,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR769,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR769,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR771,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR773,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR773,Code-Inconsistency,C4,Internal inconsistency within the change
+PR777,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR784,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR785,Requirement-Conflicting,R2,Change contradicts the requirement or adds unrequested scope
+PR785,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR788,Requirement-Conflicting,R1,Requirement not met although claimed as done
+PR788,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR789,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR793,Code-Inconsistency,C2,Unsupported verification claims
+PR794,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR794,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR795,Requirement-Conflicting,R2,Change contradicts the requirement or adds unrequested scope
+PR795,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR795,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR796,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR797,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR798,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR799,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR799,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR802,Code-Inconsistency,C2,Unsupported verification claims
+PR803,Requirement-Conflicting,R2,Change contradicts the requirement or adds unrequested scope
+PR807,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR808,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR808,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR812,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR813,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR814,Requirement-Conflicting,R2,Change contradicts the requirement or adds unrequested scope
+PR814,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR814,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR815,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR815,Code-Inconsistency,C4,Internal inconsistency within the change
+PR816,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR816,Code-Inconsistency,C4,Internal inconsistency within the change
+PR828,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR828,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR833,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR835,Code-Inconsistency,C4,Internal inconsistency within the change
+PR836,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR838,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR838,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR839,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR841,Code-Inconsistency,C4,Internal inconsistency within the change
+PR844,Requirement-Conflicting,R2,Change contradicts the requirement or adds unrequested scope
+PR844,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR847,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR848,Knowledge-Related,K4,Outdated or removed API or knowledge
+PR849,Requirement-Conflicting,R1,Requirement not met although claimed as done
+PR849,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR850,Requirement-Conflicting,R1,Requirement not met although claimed as done
+PR850,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR852,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR853,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR853,Code-Inconsistency,C4,Internal inconsistency within the change
+PR855,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR855,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR856,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR856,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR857,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR857,Code-Inconsistency,C4,Internal inconsistency within the change
+PR858,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR861,Requirement-Conflicting,R2,Change contradicts the requirement or adds unrequested scope
+PR861,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR865,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR866,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR867,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR868,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR871,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR872,Requirement-Conflicting,R1,Requirement not met although claimed as done
+PR872,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR872,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR873,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR874,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR875,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR879,Code-Inconsistency,C4,Internal inconsistency within the change
+PR881,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR881,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR885,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR885,Code-Inconsistency,C4,Internal inconsistency within the change
+PR887,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR890,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR893,Requirement-Conflicting,R2,Change contradicts the requirement or adds unrequested scope
+PR893,Knowledge-Related,K2,Non-existent or incompatible dependency version
+PR893,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR894,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR895,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR896,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR898,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR899,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR899,Code-Inconsistency,C4,Internal inconsistency within the change
+PR905,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR905,Code-Inconsistency,C2,Unsupported verification claims
+PR906,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR908,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR910,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR911,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR911,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR912,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR915,Knowledge-Related,K4,Outdated or removed API or knowledge
+PR916,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR916,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR918,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR918,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR919,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR920,Code-Inconsistency,C2,Unsupported verification claims
+PR922,Requirement-Conflicting,R2,Change contradicts the requirement or adds unrequested scope
+PR922,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR922,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR928,Knowledge-Related,K4,Outdated or removed API or knowledge
+PR928,Code-Inconsistency,C4,Internal inconsistency within the change
+PR929,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR932,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR934,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR937,Code-Inconsistency,C2,Unsupported verification claims
+PR942,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR943,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR944,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR946,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR946,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR948,Knowledge-Related,K2,Non-existent or incompatible dependency version
+PR948,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR954,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR956,Knowledge-Related,K4,Outdated or removed API or knowledge
+PR956,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR958,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR961,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR962,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR963,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR964,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR964,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR969,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR969,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR986,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR987,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR991,Code-Inconsistency,C4,Internal inconsistency within the change
+PR993,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR997,Knowledge-Related,K4,Outdated or removed API or knowledge
+PR997,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR998,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR999,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR1000,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR1001,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR1003,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR1013,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR1013,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR1016,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR1017,Knowledge-Related,K4,Outdated or removed API or knowledge
+PR1019,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR1021,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR1022,Code-Inconsistency,C2,Unsupported verification claims
+PR1023,Knowledge-Related,K2,Non-existent or incompatible dependency version
+PR1023,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR1024,Knowledge-Related,K2,Non-existent or incompatible dependency version
+PR1025,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR1028,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR1029,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR1030,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR1031,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR1033,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR1036,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR1039,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR1042,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR1044,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR1044,Code-Inconsistency,C4,Internal inconsistency within the change
+PR1046,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR1050,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR1051,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR1053,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR1054,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR1057,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR1059,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR1060,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR1065,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR1066,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR1067,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR1067,Code-Inconsistency,C2,Unsupported verification claims
+PR1071,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR1072,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR1077,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR1078,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR1078,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR1082,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR1082,Code-Inconsistency,C4,Internal inconsistency within the change
+PR1083,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR1084,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR1086,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR1087,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR1091,Knowledge-Related,K4,Outdated or removed API or knowledge
+PR1091,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR1093,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR1094,Knowledge-Related,K1,"Non-existent API, option, endpoint, resource, or fact"
+PR1094,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR1097,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR1097,Code-Inconsistency,C3,Conflict with existing repository code or configuration
+PR1099,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR1099,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR1100,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR1101,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR1102,Knowledge-Related,K3,"Incorrect assumption about language, library, or platform behavior"
+PR1103,Knowledge-Related,K4,Outdated or removed API or knowledge
+PR1111,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR1112,Code-Inconsistency,C1,Unsupported claims in description or documentation
+PR1113,Code-Inconsistency,C3,Conflict with existing repository code or configuration

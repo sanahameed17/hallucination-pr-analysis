@@ -1,0 +1,430 @@
+pr_id,commits_in_pr,audit_category,audit_category_description,present_in_first_agent_version
+PR1,1,A,Single agent version (no later agent revision),Yes
+PR2,1,A,Single agent version (no later agent revision),Yes
+PR10,1,A,Single agent version (no later agent revision),Yes
+PR13,1,A,Single agent version (no later agent revision),Yes
+PR15,1,A,Single agent version (no later agent revision),Yes
+PR17,1,A,Single agent version (no later agent revision),Yes
+PR22,3,B,Persisted across a relevant later agent revision,Yes
+PR32,1,A,Single agent version (no later agent revision),Yes
+PR33,1,A,Single agent version (no later agent revision),Yes
+PR34,1,A,Single agent version (no later agent revision),Yes
+PR36,2,A,Single agent version (no later agent revision),Yes
+PR37,7,B,Persisted across a relevant later agent revision,Yes
+PR38,1,A,Single agent version (no later agent revision),Yes
+PR39,1,A,Single agent version (no later agent revision),Yes
+PR41,2,B,Persisted across a relevant later agent revision,Yes
+PR42,1,A,Single agent version (no later agent revision),Yes
+PR45,1,A,Single agent version (no later agent revision),Yes
+PR46,1,A,Single agent version (no later agent revision),Yes
+PR48,1,A,Single agent version (no later agent revision),Yes
+PR50,1,A,Single agent version (no later agent revision),Yes
+PR51,1,A,Single agent version (no later agent revision),Yes
+PR58,1,A,Single agent version (no later agent revision),Yes
+PR59,10,B,Persisted across a relevant later agent revision,Yes
+PR60,1,A,Single agent version (no later agent revision),Yes
+PR61,3,F,Introduced in a later agent commit,No
+PR64,3,B,Persisted across a relevant later agent revision,Yes
+PR67,1,A,Single agent version (no later agent revision),Yes
+PR71,1,A,Single agent version (no later agent revision),Yes
+PR75,1,A,Single agent version (no later agent revision),Yes
+PR83,1,A,Single agent version (no later agent revision),Yes
+PR85,1,A,Single agent version (no later agent revision),Yes
+PR88,1,A,Single agent version (no later agent revision),Yes
+PR89,2,A,Single agent version (no later agent revision),Yes
+PR90,1,A,Single agent version (no later agent revision),Yes
+PR92,1,A,Single agent version (no later agent revision),Yes
+PR93,1,A,Single agent version (no later agent revision),Yes
+PR95,1,A,Single agent version (no later agent revision),Yes
+PR96,11,F,Introduced in a later agent commit,No
+PR99,3,T,Transformed into another category,Yes
+PR101,1,A,Single agent version (no later agent revision),Yes
+PR103,1,A,Single agent version (no later agent revision),Yes
+PR105,1,A,Single agent version (no later agent revision),Yes
+PR106,1,A,Single agent version (no later agent revision),Yes
+PR109,1,A,Single agent version (no later agent revision),Yes
+PR111,5,C,Later commits did not touch the hallucinated artifact,Yes
+PR112,1,A,Single agent version (no later agent revision),Yes
+PR115,1,A,Single agent version (no later agent revision),Yes
+PR120,1,A,Single agent version (no later agent revision),Yes
+PR121,3,C,Later commits did not touch the hallucinated artifact,Yes
+PR126,1,A,Single agent version (no later agent revision),Yes
+PR128,1,A,Single agent version (no later agent revision),Yes
+PR136,3,F,Introduced in a later agent commit,No
+PR137,1,A,Single agent version (no later agent revision),Yes
+PR140,1,A,Single agent version (no later agent revision),Yes
+PR141,1,A,Single agent version (no later agent revision),Yes
+PR144,1,A,Single agent version (no later agent revision),Yes
+PR146,1,A,Single agent version (no later agent revision),Yes
+PR147,1,A,Single agent version (no later agent revision),Yes
+PR155,4,F,Introduced in a later agent commit,No
+PR160,1,A,Single agent version (no later agent revision),Yes
+PR161,2,C,Later commits did not touch the hallucinated artifact,Yes
+PR165,1,A,Single agent version (no later agent revision),Yes
+PR170,2,C,Later commits did not touch the hallucinated artifact,Yes
+PR172,1,A,Single agent version (no later agent revision),Yes
+PR174,1,A,Single agent version (no later agent revision),Yes
+PR185,1,A,Single agent version (no later agent revision),Yes
+PR193,1,A,Single agent version (no later agent revision),Yes
+PR194,1,A,Single agent version (no later agent revision),Yes
+PR196,4,E,Fixed or changed only by the repository owner,Yes
+PR198,1,A,Single agent version (no later agent revision),Yes
+PR203,52,A,Single agent version (no later agent revision),Yes
+PR210,2,C,Later commits did not touch the hallucinated artifact,Yes
+PR213,1,A,Single agent version (no later agent revision),Yes
+PR214,1,A,Single agent version (no later agent revision),Yes
+PR226,1,A,Single agent version (no later agent revision),Yes
+PR233,1,A,Single agent version (no later agent revision),Yes
+PR234,1,A,Single agent version (no later agent revision),Yes
+PR235,1,A,Single agent version (no later agent revision),Yes
+PR236,2,A,Single agent version (no later agent revision),Yes
+PR244,1,A,Single agent version (no later agent revision),Yes
+PR247,1,A,Single agent version (no later agent revision),Yes
+PR249,1,A,Single agent version (no later agent revision),Yes
+PR250,1,A,Single agent version (no later agent revision),Yes
+PR252,1,A,Single agent version (no later agent revision),Yes
+PR254,1,A,Single agent version (no later agent revision),Yes
+PR255,2,C,Later commits did not touch the hallucinated artifact,Yes
+PR258,1,A,Single agent version (no later agent revision),Yes
+PR259,1,A,Single agent version (no later agent revision),Yes
+PR261,1,A,Single agent version (no later agent revision),Yes
+PR266,1,A,Single agent version (no later agent revision),Yes
+PR269,1,A,Single agent version (no later agent revision),Yes
+PR270,2,A,Single agent version (no later agent revision),Yes
+PR271,1,A,Single agent version (no later agent revision),Yes
+PR275,2,A,Single agent version (no later agent revision),Yes
+PR277,4,T,Transformed into another category,Yes
+PR280,1,A,Single agent version (no later agent revision),Yes
+PR282,2,B,Persisted across a relevant later agent revision,Yes
+PR287,5,E,Fixed or changed only by the repository owner,Yes
+PR290,1,A,Single agent version (no later agent revision),Yes
+PR295,1,A,Single agent version (no later agent revision),Yes
+PR307,1,A,Single agent version (no later agent revision),Yes
+PR309,9,B,Persisted across a relevant later agent revision,Yes
+PR311,1,A,Single agent version (no later agent revision),Yes
+PR312,1,A,Single agent version (no later agent revision),Yes
+PR321,2,A,Single agent version (no later agent revision),Yes
+PR324,2,A,Single agent version (no later agent revision),Yes
+PR326,3,T,Transformed into another category,Yes
+PR327,4,U,First version not determinable,Not determinable
+PR328,5,F,Introduced in a later agent commit,No
+PR332,1,A,Single agent version (no later agent revision),Yes
+PR335,1,A,Single agent version (no later agent revision),Yes
+PR336,1,A,Single agent version (no later agent revision),Yes
+PR337,1,A,Single agent version (no later agent revision),Yes
+PR340,1,A,Single agent version (no later agent revision),Yes
+PR341,1,A,Single agent version (no later agent revision),Yes
+PR344,1,A,Single agent version (no later agent revision),Yes
+PR353,1,A,Single agent version (no later agent revision),Yes
+PR359,1,A,Single agent version (no later agent revision),Yes
+PR361,2,C,Later commits did not touch the hallucinated artifact,Yes
+PR366,1,A,Single agent version (no later agent revision),Yes
+PR367,1,A,Single agent version (no later agent revision),Yes
+PR368,4,B,Persisted across a relevant later agent revision,Yes
+PR370,1,A,Single agent version (no later agent revision),Yes
+PR374,1,A,Single agent version (no later agent revision),Yes
+PR378,1,A,Single agent version (no later agent revision),Yes
+PR381,1,A,Single agent version (no later agent revision),Yes
+PR383,1,A,Single agent version (no later agent revision),Yes
+PR395,1,A,Single agent version (no later agent revision),Yes
+PR396,2,C,Later commits did not touch the hallucinated artifact,Yes
+PR399,1,A,Single agent version (no later agent revision),Yes
+PR402,1,A,Single agent version (no later agent revision),Yes
+PR407,1,A,Single agent version (no later agent revision),Yes
+PR410,2,C,Later commits did not touch the hallucinated artifact,Yes
+PR411,3,B,Persisted across a relevant later agent revision,Yes
+PR412,3,A,Single agent version (no later agent revision),Yes
+PR417,5,F,Introduced in a later agent commit,No
+PR418,2,B,Persisted across a relevant later agent revision,Yes
+PR419,1,A,Single agent version (no later agent revision),Yes
+PR422,1,A,Single agent version (no later agent revision),Yes
+PR428,1,A,Single agent version (no later agent revision),Yes
+PR433,1,A,Single agent version (no later agent revision),Yes
+PR434,1,A,Single agent version (no later agent revision),Yes
+PR442,5,T,Transformed into another category,Yes
+PR447,1,A,Single agent version (no later agent revision),Yes
+PR448,1,A,Single agent version (no later agent revision),Yes
+PR450,1,A,Single agent version (no later agent revision),Yes
+PR456,1,A,Single agent version (no later agent revision),Yes
+PR457,4,B,Persisted across a relevant later agent revision,Yes
+PR458,1,A,Single agent version (no later agent revision),Yes
+PR463,1,A,Single agent version (no later agent revision),Yes
+PR467,1,A,Single agent version (no later agent revision),Yes
+PR468,1,A,Single agent version (no later agent revision),Yes
+PR472,12,B,Persisted across a relevant later agent revision,Yes
+PR474,2,A,Single agent version (no later agent revision),Yes
+PR480,1,A,Single agent version (no later agent revision),Yes
+PR482,1,A,Single agent version (no later agent revision),Yes
+PR495,1,A,Single agent version (no later agent revision),Yes
+PR497,1,A,Single agent version (no later agent revision),Yes
+PR498,1,A,Single agent version (no later agent revision),Yes
+PR505,1,A,Single agent version (no later agent revision),Yes
+PR506,1,A,Single agent version (no later agent revision),Yes
+PR509,1,A,Single agent version (no later agent revision),Yes
+PR510,5,A,Single agent version (no later agent revision),Yes
+PR516,1,A,Single agent version (no later agent revision),Yes
+PR518,2,A,Single agent version (no later agent revision),Yes
+PR522,2,C,Later commits did not touch the hallucinated artifact,Yes
+PR526,1,A,Single agent version (no later agent revision),Yes
+PR529,1,A,Single agent version (no later agent revision),Yes
+PR536,1,A,Single agent version (no later agent revision),Yes
+PR537,1,A,Single agent version (no later agent revision),Yes
+PR550,1,A,Single agent version (no later agent revision),Yes
+PR552,1,A,Single agent version (no later agent revision),Yes
+PR553,1,A,Single agent version (no later agent revision),Yes
+PR555,1,A,Single agent version (no later agent revision),Yes
+PR556,1,A,Single agent version (no later agent revision),Yes
+PR557,1,A,Single agent version (no later agent revision),Yes
+PR558,2,A,Single agent version (no later agent revision),Yes
+PR561,1,A,Single agent version (no later agent revision),Yes
+PR562,1,A,Single agent version (no later agent revision),Yes
+PR564,1,A,Single agent version (no later agent revision),Yes
+PR565,1,A,Single agent version (no later agent revision),Yes
+PR567,1,A,Single agent version (no later agent revision),Yes
+PR571,1,A,Single agent version (no later agent revision),Yes
+PR574,1,A,Single agent version (no later agent revision),Yes
+PR576,1,A,Single agent version (no later agent revision),Yes
+PR577,2,A,Single agent version (no later agent revision),Yes
+PR578,1,A,Single agent version (no later agent revision),Yes
+PR580,1,A,Single agent version (no later agent revision),Yes
+PR581,1,A,Single agent version (no later agent revision),Yes
+PR587,2,F,Introduced in a later agent commit,No
+PR588,1,A,Single agent version (no later agent revision),Yes
+PR589,1,A,Single agent version (no later agent revision),Yes
+PR593,1,A,Single agent version (no later agent revision),Yes
+PR596,1,A,Single agent version (no later agent revision),Yes
+PR597,1,A,Single agent version (no later agent revision),Yes
+PR600,11,F,Introduced in a later agent commit,No
+PR601,1,A,Single agent version (no later agent revision),Yes
+PR602,1,A,Single agent version (no later agent revision),Yes
+PR604,1,A,Single agent version (no later agent revision),Yes
+PR608,1,A,Single agent version (no later agent revision),Yes
+PR612,1,A,Single agent version (no later agent revision),Yes
+PR614,1,A,Single agent version (no later agent revision),Yes
+PR617,1,A,Single agent version (no later agent revision),Yes
+PR621,1,A,Single agent version (no later agent revision),Yes
+PR622,4,C,Later commits did not touch the hallucinated artifact,Yes
+PR624,1,A,Single agent version (no later agent revision),Yes
+PR625,204,F,Introduced in a later agent commit,No
+PR626,1,A,Single agent version (no later agent revision),Yes
+PR630,3,E,Fixed or changed only by the repository owner,Yes
+PR632,2,E,Fixed or changed only by the repository owner,Yes
+PR641,23,B,Persisted across a relevant later agent revision,Yes
+PR644,3,C,Later commits did not touch the hallucinated artifact,Yes
+PR646,1,A,Single agent version (no later agent revision),Yes
+PR647,2,B,Persisted across a relevant later agent revision,Yes
+PR650,1,A,Single agent version (no later agent revision),Yes
+PR651,2,F,Introduced in a later agent commit,No
+PR653,1,A,Single agent version (no later agent revision),Yes
+PR655,1,A,Single agent version (no later agent revision),Yes
+PR657,1,A,Single agent version (no later agent revision),Yes
+PR659,1,A,Single agent version (no later agent revision),Yes
+PR661,1,A,Single agent version (no later agent revision),Yes
+PR662,1,A,Single agent version (no later agent revision),Yes
+PR663,2,B,Persisted across a relevant later agent revision,Yes
+PR667,1,A,Single agent version (no later agent revision),Yes
+PR670,1,A,Single agent version (no later agent revision),Yes
+PR671,1,A,Single agent version (no later agent revision),Yes
+PR672,1,A,Single agent version (no later agent revision),Yes
+PR675,1,A,Single agent version (no later agent revision),Yes
+PR679,1,A,Single agent version (no later agent revision),Yes
+PR681,1,A,Single agent version (no later agent revision),Yes
+PR682,1,A,Single agent version (no later agent revision),Yes
+PR683,1,A,Single agent version (no later agent revision),Yes
+PR685,1,A,Single agent version (no later agent revision),Yes
+PR686,1,A,Single agent version (no later agent revision),Yes
+PR687,1,A,Single agent version (no later agent revision),Yes
+PR688,1,A,Single agent version (no later agent revision),Yes
+PR689,2,A,Single agent version (no later agent revision),Yes
+PR691,1,A,Single agent version (no later agent revision),Yes
+PR693,1,A,Single agent version (no later agent revision),Yes
+PR694,1,A,Single agent version (no later agent revision),Yes
+PR698,1,A,Single agent version (no later agent revision),Yes
+PR700,1,A,Single agent version (no later agent revision),Yes
+PR702,2,A,Single agent version (no later agent revision),Yes
+PR703,1,A,Single agent version (no later agent revision),Yes
+PR705,8,F,Introduced in a later agent commit,No
+PR707,1,A,Single agent version (no later agent revision),Yes
+PR709,1,A,Single agent version (no later agent revision),Yes
+PR715,1,A,Single agent version (no later agent revision),Yes
+PR717,1,A,Single agent version (no later agent revision),Yes
+PR718,2,A,Single agent version (no later agent revision),Yes
+PR721,1,A,Single agent version (no later agent revision),Yes
+PR726,4,B,Persisted across a relevant later agent revision,Yes
+PR727,1,A,Single agent version (no later agent revision),Yes
+PR729,1,A,Single agent version (no later agent revision),Yes
+PR731,2,B,Persisted across a relevant later agent revision,Yes
+PR733,3,F,Introduced in a later agent commit,No
+PR734,1,A,Single agent version (no later agent revision),Yes
+PR738,1,A,Single agent version (no later agent revision),Yes
+PR739,1,A,Single agent version (no later agent revision),Yes
+PR743,1,A,Single agent version (no later agent revision),Yes
+PR745,1,A,Single agent version (no later agent revision),Yes
+PR746,1,A,Single agent version (no later agent revision),Yes
+PR747,1,A,Single agent version (no later agent revision),Yes
+PR749,4,D,Corrected by the agent,Yes
+PR752,4,B,Persisted across a relevant later agent revision,Yes
+PR755,1,A,Single agent version (no later agent revision),Yes
+PR756,3,B,Persisted across a relevant later agent revision,Yes
+PR757,1,A,Single agent version (no later agent revision),Yes
+PR759,1,A,Single agent version (no later agent revision),Yes
+PR761,1,A,Single agent version (no later agent revision),Yes
+PR762,1,A,Single agent version (no later agent revision),Yes
+PR763,11,B,Persisted across a relevant later agent revision,Yes
+PR765,3,B,Persisted across a relevant later agent revision,Yes
+PR766,1,A,Single agent version (no later agent revision),Yes
+PR767,1,A,Single agent version (no later agent revision),Yes
+PR768,1,A,Single agent version (no later agent revision),Yes
+PR769,1,A,Single agent version (no later agent revision),Yes
+PR771,1,A,Single agent version (no later agent revision),Yes
+PR773,1,A,Single agent version (no later agent revision),Yes
+PR777,1,A,Single agent version (no later agent revision),Yes
+PR784,1,A,Single agent version (no later agent revision),Yes
+PR785,1,A,Single agent version (no later agent revision),Yes
+PR788,1,A,Single agent version (no later agent revision),Yes
+PR789,1,A,Single agent version (no later agent revision),Yes
+PR793,11,D,Corrected by the agent,Yes
+PR794,1,A,Single agent version (no later agent revision),Yes
+PR795,1,A,Single agent version (no later agent revision),Yes
+PR796,1,A,Single agent version (no later agent revision),Yes
+PR797,2,A,Single agent version (no later agent revision),Yes
+PR798,3,B,Persisted across a relevant later agent revision,Yes
+PR799,1,A,Single agent version (no later agent revision),Yes
+PR802,2,E,Fixed or changed only by the repository owner,Yes
+PR803,1,A,Single agent version (no later agent revision),Yes
+PR807,1,A,Single agent version (no later agent revision),Yes
+PR808,1,A,Single agent version (no later agent revision),Yes
+PR812,1,A,Single agent version (no later agent revision),Yes
+PR813,1,A,Single agent version (no later agent revision),Yes
+PR814,1,A,Single agent version (no later agent revision),Yes
+PR815,1,A,Single agent version (no later agent revision),Yes
+PR816,1,A,Single agent version (no later agent revision),Yes
+PR828,1,A,Single agent version (no later agent revision),Yes
+PR833,1,A,Single agent version (no later agent revision),Yes
+PR835,1,A,Single agent version (no later agent revision),Yes
+PR836,2,A,Single agent version (no later agent revision),Yes
+PR838,1,A,Single agent version (no later agent revision),Yes
+PR839,1,A,Single agent version (no later agent revision),Yes
+PR841,2,B,Persisted across a relevant later agent revision,Yes
+PR844,2,A,Single agent version (no later agent revision),Yes
+PR847,1,A,Single agent version (no later agent revision),Yes
+PR848,2,A,Single agent version (no later agent revision),Yes
+PR849,1,A,Single agent version (no later agent revision),Yes
+PR850,1,A,Single agent version (no later agent revision),Yes
+PR852,1,A,Single agent version (no later agent revision),Yes
+PR853,1,A,Single agent version (no later agent revision),Yes
+PR855,4,E,Fixed or changed only by the repository owner,Yes
+PR856,2,A,Single agent version (no later agent revision),Yes
+PR857,2,A,Single agent version (no later agent revision),Yes
+PR858,1,A,Single agent version (no later agent revision),Yes
+PR861,1,A,Single agent version (no later agent revision),Yes
+PR865,3,F,Introduced in a later agent commit,No
+PR866,2,C,Later commits did not touch the hallucinated artifact,Yes
+PR867,1,A,Single agent version (no later agent revision),Yes
+PR868,1,A,Single agent version (no later agent revision),Yes
+PR871,4,F,Introduced in a later agent commit,No
+PR872,2,A,Single agent version (no later agent revision),Yes
+PR873,1,A,Single agent version (no later agent revision),Yes
+PR874,3,D,Corrected by the agent,Yes
+PR875,1,A,Single agent version (no later agent revision),Yes
+PR879,3,D,Corrected by the agent,Yes
+PR881,1,A,Single agent version (no later agent revision),Yes
+PR885,1,A,Single agent version (no later agent revision),Yes
+PR887,2,F,Introduced in a later agent commit,No
+PR890,2,D,Corrected by the agent,Yes
+PR893,2,A,Single agent version (no later agent revision),Yes
+PR894,1,A,Single agent version (no later agent revision),Yes
+PR895,1,A,Single agent version (no later agent revision),Yes
+PR896,1,A,Single agent version (no later agent revision),Yes
+PR898,4,F,Introduced in a later agent commit,No
+PR899,2,A,Single agent version (no later agent revision),Yes
+PR905,1,A,Single agent version (no later agent revision),Yes
+PR906,1,A,Single agent version (no later agent revision),Yes
+PR908,1,A,Single agent version (no later agent revision),Yes
+PR910,1,A,Single agent version (no later agent revision),Yes
+PR911,1,A,Single agent version (no later agent revision),Yes
+PR912,6,B,Persisted across a relevant later agent revision,Yes
+PR915,1,A,Single agent version (no later agent revision),Yes
+PR916,1,A,Single agent version (no later agent revision),Yes
+PR918,1,A,Single agent version (no later agent revision),Yes
+PR919,1,A,Single agent version (no later agent revision),Yes
+PR920,4,B,Persisted across a relevant later agent revision,Yes
+PR922,12,T,Transformed into another category,Yes
+PR928,1,A,Single agent version (no later agent revision),Yes
+PR929,1,A,Single agent version (no later agent revision),Yes
+PR932,1,A,Single agent version (no later agent revision),Yes
+PR934,1,A,Single agent version (no later agent revision),Yes
+PR937,9,F,Introduced in a later agent commit,No
+PR942,1,A,Single agent version (no later agent revision),Yes
+PR943,1,A,Single agent version (no later agent revision),Yes
+PR944,1,A,Single agent version (no later agent revision),Yes
+PR946,1,A,Single agent version (no later agent revision),Yes
+PR948,1,A,Single agent version (no later agent revision),Yes
+PR954,1,A,Single agent version (no later agent revision),Yes
+PR956,2,B,Persisted across a relevant later agent revision,Yes
+PR958,1,A,Single agent version (no later agent revision),Yes
+PR961,1,A,Single agent version (no later agent revision),Yes
+PR962,1,A,Single agent version (no later agent revision),Yes
+PR963,1,A,Single agent version (no later agent revision),Yes
+PR964,1,A,Single agent version (no later agent revision),Yes
+PR969,1,A,Single agent version (no later agent revision),Yes
+PR986,1,A,Single agent version (no later agent revision),Yes
+PR987,1,A,Single agent version (no later agent revision),Yes
+PR991,1,A,Single agent version (no later agent revision),Yes
+PR993,1,A,Single agent version (no later agent revision),Yes
+PR997,1,A,Single agent version (no later agent revision),Yes
+PR998,1,A,Single agent version (no later agent revision),Yes
+PR999,1,A,Single agent version (no later agent revision),Yes
+PR1000,2,A,Single agent version (no later agent revision),Yes
+PR1001,1,A,Single agent version (no later agent revision),Yes
+PR1003,1,A,Single agent version (no later agent revision),Yes
+PR1013,4,B,Persisted across a relevant later agent revision,Yes
+PR1016,1,A,Single agent version (no later agent revision),Yes
+PR1017,1,A,Single agent version (no later agent revision),Yes
+PR1019,1,A,Single agent version (no later agent revision),Yes
+PR1021,4,B,Persisted across a relevant later agent revision,Yes
+PR1022,5,B,Persisted across a relevant later agent revision,Yes
+PR1023,1,A,Single agent version (no later agent revision),Yes
+PR1024,9,F,Introduced in a later agent commit,No
+PR1025,1,A,Single agent version (no later agent revision),Yes
+PR1028,1,A,Single agent version (no later agent revision),Yes
+PR1029,1,A,Single agent version (no later agent revision),Yes
+PR1030,1,A,Single agent version (no later agent revision),Yes
+PR1031,1,A,Single agent version (no later agent revision),Yes
+PR1033,5,C,Later commits did not touch the hallucinated artifact,Yes
+PR1036,1,A,Single agent version (no later agent revision),Yes
+PR1039,1,A,Single agent version (no later agent revision),Yes
+PR1042,3,B,Persisted across a relevant later agent revision,Yes
+PR1044,3,C,Later commits did not touch the hallucinated artifact,Yes
+PR1046,1,A,Single agent version (no later agent revision),Yes
+PR1050,5,B,Persisted across a relevant later agent revision,Yes
+PR1051,1,A,Single agent version (no later agent revision),Yes
+PR1053,1,A,Single agent version (no later agent revision),Yes
+PR1054,1,A,Single agent version (no later agent revision),Yes
+PR1057,1,A,Single agent version (no later agent revision),Yes
+PR1059,1,A,Single agent version (no later agent revision),Yes
+PR1060,1,A,Single agent version (no later agent revision),Yes
+PR1065,1,A,Single agent version (no later agent revision),Yes
+PR1066,1,A,Single agent version (no later agent revision),Yes
+PR1067,18,B,Persisted across a relevant later agent revision,Yes
+PR1071,1,A,Single agent version (no later agent revision),Yes
+PR1072,1,A,Single agent version (no later agent revision),Yes
+PR1077,1,A,Single agent version (no later agent revision),Yes
+PR1078,1,A,Single agent version (no later agent revision),Yes
+PR1082,1,A,Single agent version (no later agent revision),Yes
+PR1083,1,A,Single agent version (no later agent revision),Yes
+PR1084,1,A,Single agent version (no later agent revision),Yes
+PR1086,1,A,Single agent version (no later agent revision),Yes
+PR1087,1,A,Single agent version (no later agent revision),Yes
+PR1091,1,A,Single agent version (no later agent revision),Yes
+PR1093,2,B,Persisted across a relevant later agent revision,Yes
+PR1094,2,A,Single agent version (no later agent revision),Yes
+PR1097,1,A,Single agent version (no later agent revision),Yes
+PR1099,1,A,Single agent version (no later agent revision),Yes
+PR1100,1,A,Single agent version (no later agent revision),Yes
+PR1101,1,A,Single agent version (no later agent revision),Yes
+PR1102,1,A,Single agent version (no later agent revision),Yes
+PR1103,1,A,Single agent version (no later agent revision),Yes
+PR1111,5,B,Persisted across a relevant later agent revision,Yes
+PR1112,1,A,Single agent version (no later agent revision),Yes
+PR1113,1,A,Single agent version (no later agent revision),Yes
