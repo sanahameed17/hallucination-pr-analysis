@@ -1,0 +1,444 @@
+{
+ "pilot_agreement": {
+  "n": 49,
+  "observed_agreement": 0.857,
+  "cohens_kappa": 0.58,
+  "kappa_CI95": [
+   0.29,
+   0.87
+  ],
+  "PABAK": 0.71
+ },
+ "rq1_labels": {
+  "Hallucinated": 429,
+  "Non-Hallucinated": 636,
+  "Cannot Determine": 1
+ },
+ "rq1_rate": 0.4024,
+ "rq1_rate_CI95_wilson": [
+  0.3734,
+  0.4322
+ ],
+ "table1": {
+  "Requirement-Conflicting": {
+   "instances": 32,
+   "pct_instances": 6.0,
+   "pct_hallucinated_prs": 7.5
+  },
+  "Knowledge-Related": {
+   "instances": 196,
+   "pct_instances": 36.5,
+   "pct_hallucinated_prs": 45.7
+  },
+  "Code-Inconsistency": {
+   "instances": 309,
+   "pct_instances": 57.5,
+   "pct_hallucinated_prs": 72.0
+  }
+ },
+ "table1_total_instances": 537,
+ "rq1_by_agent": {
+  "chi2": 59.02,
+  "dof": 4,
+  "p": 4.658237218162776e-12,
+  "cramers_v": 0.24,
+  "groups": {
+   "Claude Code": {
+    "H": 6,
+    "n": 8,
+    "pct": 75.0
+   },
+   "Cursor AI": {
+    "H": 30,
+    "n": 36,
+    "pct": 83.3
+   },
+   "Devin AI": {
+    "H": 25,
+    "n": 39,
+    "pct": 64.1
+   },
+   "GitHub Copilot": {
+    "H": 41,
+    "n": 69,
+    "pct": 59.4
+   },
+   "OpenAI Codex": {
+    "H": 327,
+    "n": 913,
+    "pct": 35.8
+   }
+  }
+ },
+ "rq1_by_task": {
+  "chi2": 30.51,
+  "dof": 9,
+  "p": 0.0003594541536406839,
+  "cramers_v": 0.17,
+  "groups": {
+   "Bug Fix": {
+    "H": 72,
+    "n": 199,
+    "pct": 36.2
+   },
+   "Configuration": {
+    "H": 28,
+    "n": 62,
+    "pct": 45.2
+   },
+   "DevOps": {
+    "H": 21,
+    "n": 33,
+    "pct": 63.6
+   },
+   "Documentation": {
+    "H": 47,
+    "n": 122,
+    "pct": 38.5
+   },
+   "Feature": {
+    "H": 155,
+    "n": 328,
+    "pct": 47.3
+   },
+   "Other": {
+    "H": 3,
+    "n": 8,
+    "pct": 37.5
+   },
+   "Performance": {
+    "H": 5,
+    "n": 7,
+    "pct": 71.4
+   },
+   "Refactor": {
+    "H": 41,
+    "n": 110,
+    "pct": 37.3
+   },
+   "Testing": {
+    "H": 22,
+    "n": 66,
+    "pct": 33.3
+   },
+   "UI Change": {
+    "H": 35,
+    "n": 130,
+    "pct": 26.9
+   }
+  }
+ },
+ "rq1_other_agents_vs_codex": {
+  "OR": 3.66,
+  "p": 6.113839696915298e-13
+ },
+ "rq1_subtypes": {
+  "C1": 147,
+  "C2": 24,
+  "C3": 93,
+  "C4": 45,
+  "K1": 55,
+  "K2": 8,
+  "K3": 112,
+  "K4": 21,
+  "R1": 14,
+  "R2": 18
+ },
+ "rq1_prs_with_C1_or_C2": 171,
+ "rq2_outcomes": {
+  "Persistence": 419,
+  "Transformation": 5,
+  "Correction": 5
+ },
+ "rq2_revision_audit": {
+  "A (Single agent version)": 345,
+  "B (Persisted across a relevant later agent revision)": 34,
+  "C (Later commits did not touch the hallucinated artifact)": 15,
+  "D (Corrected by the agent)": 5,
+  "E (Fixed or changed only by the repository owner)": 6,
+  "F (Introduced in a later agent commit)": 18,
+  "T (Transformed into another category)": 5,
+  "U (First version not determinable)": 1
+ },
+ "rq3_all": {
+  "n": 1065,
+  "table": {
+   "Hallucinated": {
+    "Merged": 331,
+    "Closed": 63,
+    "Open": 24,
+    "Draft": 11
+   },
+   "Non-Hallucinated": {
+    "Merged": 561,
+    "Closed": 38,
+    "Open": 27,
+    "Draft": 10
+   }
+  },
+  "chi2": 26.48,
+  "dof": 3,
+  "p": 7.5525267519951615e-06,
+  "cramers_v": 0.158,
+  "merge_fisher_p": 2.6860476475417444e-06,
+  "merge_OR": 0.45,
+  "merge_OR_CI95": [
+   0.32,
+   0.63
+  ],
+  "freeman_halton_p_mc": 3.999960000399996e-05
+ },
+ "rq3_excluding_borderline": {
+  "n": 908,
+  "table": {
+   "Hallucinated": {
+    "Merged": 202,
+    "Closed": 46,
+    "Open": 15,
+    "Draft": 9
+   },
+   "Non-Hallucinated": {
+    "Merged": 561,
+    "Closed": 38,
+    "Open": 27,
+    "Draft": 10
+   }
+  },
+  "chi2": 32.45,
+  "dof": 3,
+  "p": 4.2046705859967537e-07,
+  "cramers_v": 0.189,
+  "merge_fisher_p": 5.416997964873789e-07,
+  "merge_OR": 0.39,
+  "merge_OR_CI95": [
+   0.27,
+   0.55
+  ]
+ },
+ "rq3_one_pr_per_repository": {
+  "n": 975,
+  "table": {
+   "Hallucinated": {
+    "Merged": 300,
+    "Closed": 60,
+    "Open": 23,
+    "Draft": 11
+   },
+   "Non-Hallucinated": {
+    "Merged": 508,
+    "Closed": 37,
+    "Open": 26,
+    "Draft": 10
+   }
+  },
+  "chi2": 24.26,
+  "dof": 3,
+  "p": 2.208608688203459e-05,
+  "cramers_v": 0.158,
+  "merge_fisher_p": 5.9562388289785565e-06,
+  "merge_OR": 0.46,
+  "merge_OR_CI95": [
+   0.33,
+   0.64
+  ]
+ },
+ "n_repositories": 976,
+ "rq3_codex_only": {
+  "n": 913,
+  "table": {
+   "Hallucinated": {
+    "Merged": 273,
+    "Closed": 30,
+    "Open": 21,
+    "Draft": 3
+   },
+   "Non-Hallucinated": {
+    "Merged": 529,
+    "Closed": 28,
+    "Open": 26,
+    "Draft": 3
+   }
+  },
+  "chi2": 9.62,
+  "dof": 3,
+  "p": 0.022114880319038438,
+  "cramers_v": 0.103,
+  "merge_fisher_p": 0.0030936491694058374,
+  "merge_OR": 0.54,
+  "merge_OR_CI95": [
+   0.37,
+   0.81
+  ]
+ },
+ "rq3_size_lines": {
+  "median_H": 98.0,
+  "median_NH": 34.0,
+  "mann_whitney_p": 1.754278263199598e-27
+ },
+ "rq3_size_files_changed": {
+  "median_H": 3.0,
+  "median_NH": 2.0,
+  "mann_whitney_p": 3.7805910611370885e-15
+ },
+ "rq3_size_description_words": {
+  "median_H": 33.0,
+  "median_NH": 27.0,
+  "mann_whitney_p": 2.6245242963329e-13
+ },
+ "rq3_regression": {
+  "n": 1061,
+  "clusters": 971,
+  "auc": 0.7,
+  "max_vif": 2.84,
+  "odds_ratios": {
+   "Hallucinated": {
+    "OR": 0.59,
+    "CI95": [
+     0.4,
+     0.86
+    ],
+    "p": 0.006
+   },
+   "Agent: GitHub Copilot": {
+    "OR": 0.23,
+    "CI95": [
+     0.09,
+     0.6
+    ],
+    "p": 0.003
+   },
+   "Agent: Devin AI": {
+    "OR": 0.25,
+    "CI95": [
+     0.11,
+     0.57
+    ],
+    "p": 0.001
+   },
+   "Agent: Cursor AI": {
+    "OR": 0.38,
+    "CI95": [
+     0.17,
+     0.84
+    ],
+    "p": 0.017
+   },
+   "Agent: Claude Code": {
+    "OR": 0.77,
+    "CI95": [
+     0.12,
+     5.04
+    ],
+    "p": 0.787
+   },
+   "Task: Bug Fix": {
+    "OR": 2.01,
+    "CI95": [
+     1.07,
+     3.75
+    ],
+    "p": 0.03
+   },
+   "Task: Documentation": {
+    "OR": 0.86,
+    "CI95": [
+     0.48,
+     1.53
+    ],
+    "p": 0.601
+   },
+   "Task: Refactor": {
+    "OR": 1.16,
+    "CI95": [
+     0.63,
+     2.13
+    ],
+    "p": 0.635
+   },
+   "Task: UI Change": {
+    "OR": 1.13,
+    "CI95": [
+     0.61,
+     2.12
+    ],
+    "p": 0.694
+   },
+   "Task: Testing": {
+    "OR": 1.01,
+    "CI95": [
+     0.45,
+     2.27
+    ],
+    "p": 0.982
+   },
+   "Task: Config/DevOps": {
+    "OR": 1.22,
+    "CI95": [
+     0.65,
+     2.3
+    ],
+    "p": 0.535
+   },
+   "Task: Other": {
+    "OR": 0.82,
+    "CI95": [
+     0.29,
+     2.36
+    ],
+    "p": 0.714
+   },
+   "log(lines changed + 1)": {
+    "OR": 1.04,
+    "CI95": [
+     0.78,
+     1.38
+    ],
+    "p": 0.799
+   },
+   "log(files changed + 1)": {
+    "OR": 0.96,
+    "CI95": [
+     0.76,
+     1.22
+    ],
+    "p": 0.733
+   },
+   "log(commits)": {
+    "OR": 0.89,
+    "CI95": [
+     0.72,
+     1.1
+    ],
+    "p": 0.274
+   },
+   "log(description words + 1)": {
+    "OR": 0.99,
+    "CI95": [
+     0.76,
+     1.28
+    ],
+    "p": 0.914
+   }
+  }
+ },
+ "rq4_first_version": {
+  "Yes": 410,
+  "No": 18,
+  "Not determinable": 1
+ },
+ "rq4_first_version_pct": 95.6,
+ "rq4_by_initial_type": {
+  "Requirement-Conflicting": {
+   "present": 30,
+   "n": 31
+  },
+  "Knowledge-Related": {
+   "present": 186,
+   "n": 194
+  },
+  "Code-Inconsistency": {
+   "present": 294,
+   "n": 306
+  }
+ }
+}
